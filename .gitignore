@@ -1,0 +1,92 @@
+# -------------------------------
+# .NET / C# / Uno
+# -------------------------------
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Uno generated cache
+.nuget/
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.DotSettings.user
+
+# -------------------------------
+# Android / Gradle / Uno Droid
+# -------------------------------
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+*.class
+*.jar
+*.keystore
+*.jks
+*.so
+
+# Android build output (Uno.Droid)
+src/**/Iot.Host.Uno.Droid/obj/
+src/**/Iot.Host.Uno.Droid/bin/
+src/**/Iot.Host.Uno.Droid/build/
+
+# Gradle caches
+.gradle/
+local.properties
+.gradle/
+build/
+captures/
+
+# Android Studio / Rider
+*.iml
+.gradle/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# -------------------------------
+# OS-specific
+# -------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Linux temp
+*~
+.nfs*
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+*.tlog
+
+# -------------------------------
+# Coverage / Testing
+# -------------------------------
+*.coverage
+*.coveragexml
+TestResult*/
+*.trx
+
+# -------------------------------
+# Other
+# -------------------------------
+*.swp
+*.tmp
+*.bak
+*.orig
+
