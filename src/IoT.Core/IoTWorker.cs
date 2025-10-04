@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Iot.Core;
+namespace IoT.Core;
 
 public sealed class IotWorker(ILogger<IotWorker> log) : BackgroundService
 {
